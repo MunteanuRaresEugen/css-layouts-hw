@@ -1,5 +1,19 @@
+.all-content {
+    font-size: 5px;
+    font-family: sans-serif;
+}
+.Active {
+    color: #344767;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .container {
-    margin-top: 20px;
+    color: #67748E;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 100px 100px 100px 100px ;
     align-content: space-between;
@@ -9,13 +23,13 @@
     margin-top: 2px;
     width: 70px;
     height: 4px;
-    background: grey;
-    border-radius: 5px;
+    background: rgb(211,211,211);
 }
 
 .progress-fill {
     width: 50%;
     height: 100%;
+    border-radius: 5px;
     background: #344767;
 }
 
@@ -23,27 +37,28 @@
     margin-top: 2px;
     width: 50px;
     height: 4px;
-    background: grey;
-    border-radius: 5px;
+    background: rgb(211,211,211);
+    
 }
 
 .progress-fill2 {
     width: 85%;
     height: 100%;
     background: #344767;
+    border-radius: 5px;
 }
 
 .progress3 {
     margin-top: 2px;
     width: 50px;
     height: 4px;
-    background: grey;
-    border-radius: 5px;
+    background: rgb(211,211,211);
 }
 
 .progress-fill3 {
     width: 30%;
     height: 100%;
+    border-radius: 5px;
     background: #344767;
 }
 
@@ -51,12 +66,54 @@
     margin-top: 2px;
     width: 50px;
     height: 4px;
-    background: grey;
-    border-radius: 5px;
+    background: rgb(211,211,211);
 }
 
 .progress-fill4 {
     width: 50%;
     height: 100%;
     background: #344767;
+    border-radius: 5px;
+}
+
+.Nb1 {
+    color: #344767;
+    font-weight: bold;
+}
+
+.Nb2 {
+    color: #344767;
+    font-weight: bold;
+}
+
+.Nb3 {
+    color: #344767;
+    font-weight: bold;
+}
+
+.Nb4 {
+    color: #344767;
+    font-weight: bold;
+}
+
+.Users {
+    font-size: 9px;
+}
+
+.Clicks {
+    font-size: 9px;
+}
+
+.Sales {
+    font-size: 9px;
+}
+
+.Items {
+    font-size: 9px;
+}
+
+.image1{
+    width: 12%;
+    border-radius: 2px ;
+    margin-right: 2px;
 }

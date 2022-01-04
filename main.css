@@ -1,5 +1,5 @@
 .all-content {
-    font-size: 5px;
+    font-size: 8px;
     font-family: sans-serif;
 }
 .Active {
@@ -12,33 +12,37 @@
 }
 
 .container {
+    align-content: space-around;
+    gap: 2px;
     color: #67748E;
     margin-top: 10px;
     display: grid;
     grid-template-columns: 100px 100px 100px 100px ;
-    align-content: space-between;
+    align-items: flex-end;
 }
 
 .progress1 {
     margin-top: 2px;
-    width: 70px;
-    height: 4px;
+    width: 55px;
+    height: 3px;
     background: rgb(211,211,211);
+    border-radius: 2px;
 }
 
-.progress-fill {
+.progress-fill1 {
     width: 50%;
     height: 100%;
     border-radius: 5px;
     background: #344767;
+    
 }
 
 .progress2 {
     margin-top: 2px;
-    width: 50px;
-    height: 4px;
+    width: 55px;
+    height: 3px;
     background: rgb(211,211,211);
-    
+    border-radius: 2px;
 }
 
 .progress-fill2 {
@@ -50,9 +54,10 @@
 
 .progress3 {
     margin-top: 2px;
-    width: 50px;
-    height: 4px;
+    width: 55px;
+    height: 3px;
     background: rgb(211,211,211);
+    border-radius: 2px;
 }
 
 .progress-fill3 {
@@ -64,9 +69,10 @@
 
 .progress4 {
     margin-top: 2px;
-    width: 50px;
-    height: 4px;
+    width: 55px;
+    height: 3px;
     background: rgb(211,211,211);
+    border-radius: 2px;
 }
 
 .progress-fill4 {
@@ -115,5 +121,6 @@
 .image1{
     width: 12%;
     border-radius: 2px ;
-    margin-right: 2px;
+    margin-right: 5px;
 }
+

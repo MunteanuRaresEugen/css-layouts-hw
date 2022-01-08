@@ -1,5 +1,5 @@
 .all-content {
-    font-size: 5.5px;
+    font-size: 18px;
     font-family: sans-serif;
 }
 .Active {
@@ -15,15 +15,16 @@
     align-content: space-between;
     align-items: flex-start;
     color: #67748E;
-    margin-top: 10px;
+    margin-top: 20px;
     display: grid;
-    grid-template-columns: 60px 60px 60px 60px ;
+    grid-template-columns: 140px 140px 140px 140px ;
+    grid-template-rows: 35px 25px;
 }
 
 .progress1 {
     margin-top: 2px;
-    width: 40px;
-    height: 2px;
+    width: 90px;
+    height: 4px;
     background: rgb(211,211,211);
     border-radius: 2px;
 }
@@ -38,8 +39,8 @@
 
 .progress2 {
     margin-top: 2px;
-    width: 40px;
-    height: 2px;
+    width: 90px;
+    height: 4px;
     background: rgb(211,211,211);
     border-radius: 2px;
 }
@@ -53,8 +54,8 @@
 
 .progress3 {
     margin-top: 2px;
-    width: 40px;
-    height: 2px;
+    width: 90px;
+    height: 4px;
     background: rgb(211,211,211);
     border-radius: 2px;
 }
@@ -68,8 +69,8 @@
 
 .progress4 {
     margin-top: 2px;
-    width: 40px;
-    height: 2px;
+    width: 90px;
+    height: 4px;
     background: rgb(211,211,211);
     border-radius: 2px;
 }
@@ -102,23 +103,23 @@
 }
 
 .Users {
-    font-size: 5px;
+    font-size: 15px;
 }
 
 .Clicks {
-    font-size: 5px;
+    font-size: 15px;
 }
 
 .Sales {
-    font-size: 5px;
+    font-size: 15px;
 }
 
 .Items {
-    font-size: 5px;
+    font-size: 15px;
 }
 
 .image1{
-    width: 10%;
+    width: 15%;
     border-radius: 2px ;
     margin-right: 5px;
 }

@@ -16,12 +16,11 @@
     align-items: flex-start;
     color: #67748E;
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: 140px 140px 140px 140px ;
-    grid-template-rows: 35px 25px;
+    display: flex;
+    flex-direction: row;
 }
 
-.progress1 {
+.progress {
     margin-top: 2px;
     width: 90px;
     height: 4px;
@@ -37,27 +36,11 @@
     
 }
 
-.progress2 {
-    margin-top: 2px;
-    width: 90px;
-    height: 4px;
-    background: rgb(211,211,211);
-    border-radius: 2px;
-}
-
 .progress-fill2 {
     width: 85%;
     height: 100%;
     background: #344767;
     border-radius: 5px;
-}
-
-.progress3 {
-    margin-top: 2px;
-    width: 90px;
-    height: 4px;
-    background: rgb(211,211,211);
-    border-radius: 2px;
 }
 
 .progress-fill3 {
@@ -67,14 +50,6 @@
     background: #344767;
 }
 
-.progress4 {
-    margin-top: 2px;
-    width: 90px;
-    height: 4px;
-    background: rgb(211,211,211);
-    border-radius: 2px;
-}
-
 .progress-fill4 {
     width: 50%;
     height: 100%;
@@ -82,40 +57,14 @@
     border-radius: 5px;
 }
 
-.Nb1 {
+.Card {
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.Card p {
     color: #344767;
     font-weight: bold;
-}
-
-.Nb2 {
-    color: #344767;
-    font-weight: bold;
-}
-
-.Nb3 {
-    color: #344767;
-    font-weight: bold;
-}
-
-.Nb4 {
-    color: #344767;
-    font-weight: bold;
-}
-
-.Users {
-    font-size: 15px;
-}
-
-.Clicks {
-    font-size: 15px;
-}
-
-.Sales {
-    font-size: 15px;
-}
-
-.Items {
-    font-size: 15px;
 }
 
 .image1{
